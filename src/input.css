@@ -71,7 +71,7 @@
     }
 
     .answer.active {
-        @apply block lg:opacity-100
+        @apply flex lg:opacity-100
     }
 
 }

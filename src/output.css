@@ -690,7 +690,7 @@ video {
 }
 
 .answer.active{
-  display: block;
+  display: flex;
 }
 
 @media (min-width: 1024px){
