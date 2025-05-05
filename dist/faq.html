@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTC - Donation System</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    
+    <div class="bg-asol fixed w-full">
+        <div class="container py-1">
+            <div class="flex justify-end">
+                <ul class="flex gap-4">
+                    <li><a href="#" class="text-poti text-[12px] font-lato">Visit Philippine Frontline Ministries</a></li>
+                    <li><a href="#" class="text-poti text-[12px] font-lato">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+
+    <div class="header bg-pote fixed top-8 w-full">
+        <div class="container py-4">
+
+            <!-- DESKTOP -->
+
+            <div class="header_d">
+                <div class="header_wrapper hidden lg:flex justify-between items-center">
+
+                    <div class="header_img">
+                        <img src="./img/home/LOGO.svg" alt="">
+                    </div>
+
+                    <div class="nav_d flex items-center gap-4">
+                        <ul class="flex gap-4">
+                            <li><a href="home.html" class="text-base text-etim font-lato font-[400]">Home</a></li>
+                            <li><a href="about.html" class="text-base text-etim font-lato font-[400]">About</a></li>
+                            <li><a href="faq.html" class="text-base text-delaw font-lato font-[400]">FAQ</a></li>
+                            <li><a href="strategy.html" class="text-base text-etim font-lato font-[400]">Strategy</a></li>
+                            <li><a href="contact.html" class="text-base text-etim font-lato font-[400]">Contact</a></li>
+                            <li><a href="sponsor.html" class="text-base text-etim font-lato font-[400]">Sponsor Child</a></li>
+                        </ul>
+                        <div class="header_btn">
+                            <a href="" class="btn">Donate</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- MOBILE -->
+
+            <div class="header_m lg:hidden">
+                <div class="header_wrapper flex justify-between items-center">
+
+                    <div class="header_img">
+                        <img src="./img/home/LOGO.svg" alt="">
+                    </div>
+
+                    <div class="toggle_menu">
+                        <span class="block w-6 h-1 rounded-full bg-asol transition-all"></span>
+                        <span class="block w-6 h-1 rounded-full bg-asol my-1 transition-all"></span>
+                        <span class="block w-6 h-1 rounded-full bg-asol transition-all"></span>
+                    </div>
+
+                    <div class="nav_m bg-pote absolute top-[70px] right-0 h-[100vh] flex lg:hidden flex-col gap-4 items-center justify-center">
+                        <ul class="flex flex-col gap-4 text-center">
+                            <li><a href="" class="text-base text-etim font-lato">Home</a></li>
+                            <li><a href="" class="text-base text-etim font-lato">About</a></li>
+                            <li><a href="" class="text-base text-delaw font-lato">FAQ</a></li>
+                            <li><a href="" class="text-base text-etim font-lato">Strategy</a></li>
+                            <li><a href="" class="text-base text-etim font-lato">Contact</a></li>
+                            <li><a href="" class="text-base text-etim font-lato">Sponsor Child</a></li>
+                        </ul>
+                        <div class="header_btn">
+                            <a href="" class="btn">Donate</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FAQ -->
+
+    <div class="faq pt-40 pb-10">
+        <div class="container">
+            <div class="faq_wrapper w-full">
+
+                <div class="faq_title mb-4 mx-auto">
+                    <small class="text-[12px] text-delaw font-poppins font-[400] flex justify-center">YOUR QUESTIONS, OUR CLARITY</small>
+                    <h1 class="text-[clamp(24px,4vw,46px)] text-lebag text-center font-poppins font-semibold">Our Commitment to Child Development</h1>
+                </div>
+
+                <div class="faq_qna flex flex-col gap-5 items-center justify-center">
+
+                    <!-- TAB 1 -->
+
+                    <div class="faq_tab flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+                        <a href="javascript:void(0)" id="faq-1" class="faq_nav_link active">
+                            <div class="question group flex justify-between items-center p-2 border rounded-md w-fit lg:w-[600px]">
+                                <div class="flex gap-4 items-center">
+                                    <span class="text-xl font-poppins font-semibold opacity-40">01</span>
+                                    <p class="text-sm font-poppins">Can I communicate with the child I have made a Pledge to?</p>
+                                </div>
+                                <span><i class="fa-solid fa-chevron-right"></i></span>
+                            </div>
+                        </a>
+                        <div id="faq-1-content" class="answer active border border-asol bg-pote w-fit md:max-w-[400px] lg:max-w-[400px] p-2 rounded-md">
+                            <p class="text-sm font-poppins">Yes. You can email them, but all communication is monitored by FTC management.</p>
+                        </div>
+                    </div>
+
+                    <!-- TAB 2 -->
+
+                    <div class="faq_tab flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+                        <a href="javascript:void(0)" id="faq-2" class="faq_nav_link">
+                            <div class="question group flex justify-between items-center p-2 border rounded-md w-fit lg:w-[600px]">
+                                <div class="flex gap-4 items-center">
+                                    <span class="text-xl font-poppins font-semibold opacity-40">02</span>
+                                    <p class="text-sm font-poppins">How can you make sure our payment is secure?</p>
+                                </div>
+                                <span><i class="fa-solid fa-chevron-right"></i></span>
+                            </div>
+                        </a>
+                        <div id="faq-2-content" class="answer border border-asol bg-pote w-fit md:max-w-[400px] lg:max-w-[400px] p-2 rounded-md">
+                            <p class="text-sm font-poppins">Our online donation transaction is a secure SSL encrypted payment using Stripe payment processor with the best-in-class security tools and practices to maintain a high level of security.</p>
+                        </div>
+                    </div>
+
+                    <!-- TAB 3 -->
+
+                    <div class="faq_tab flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+                        <a href="javascript:void(0)" id="faq-3" class="faq_nav_link">
+                            <div class="question group flex justify-between items-center p-2 border rounded-md w-fit lg:w-[600px]">
+                                <div class="flex gap-4 items-center">
+                                    <span class="text-xl font-poppins font-semibold opacity-40">03</span>
+                                    <p class="text-sm font-poppins">Can I update my card number using your website?</p>
+                                </div>
+                                <span><i class="fa-solid fa-chevron-right"></i></span>
+                            </div>
+                        </a>
+                        <div id="faq-3-content" class="answer border border-asol bg-pote w-fit md:max-w-[400px] lg:max-w-[400px] p-2 rounded-md">
+                            <p class="text-sm font-poppins">Yes. You can change it on your account settings. Login to your donor console</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- GIFT -->
+
+    <div class="gift py-10 bg-pote">
+        <div class="container">
+            <div class="gift_wrapper w-full">
+
+                <div class="mb-4">
+                    <small class="text-[12px] text-delaw font-poppins font-[400] flex justify-center">Every Gift Counts</small>
+                    <h2 class="text-[clamp(18px,4vw,30px)] text-lebag text-center font-poppins font-semibold">Together, We Make a Difference</h2>
+                </div>
+                <p class="text-sm text-center font-poppins font-[300] max-w-[500px] mb-10 mx-auto">Together, we lend a helping hand to those in need, offering hope and support where it's needed most. From volunteering our time to donating resources, each act of kindness strengthens our community fabric.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-asol">
+        <div class="container py-1">
+            <div>
+                <div class="flex items-center justify-between">
+                    <p class="text-poti text-[clamp(10px,4vw,12px)] font-lato">© 2024 Face The Children</p>
+                    <p class="text-poti text-[clamp(10px,4vw,12px)] font-lato">Philippine Frontline Ministries</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../dist/js/script.js"></script>
+
+</body>
+</html>
