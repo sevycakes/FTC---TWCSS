@@ -43,13 +43,14 @@
 
     /* FAQ TABS */
 
-    /* .question {
+    .question {
         @apply hover:bg-blo transition-all
     }
 
-    .question span {
+    /* .question span {
         @apply hover:text-white
     }
+
     .question p {
         @apply hover:text-white
     } */
@@ -58,12 +59,12 @@
         @apply border-asol
     }
 
-    .faq_nav_link.active .question span {
-        @apply text-asol
+    .faq_nav_link.active span {
+        @apply text-asol  group-hover:text-white transition-all
     }
 
-    .faq_nav_link.active .question p {
-        @apply text-asol
+    .faq_nav_link.active p {
+        @apply text-asol group-hover:text-white transition-all
     }
 
     .answer {
@@ -80,6 +81,10 @@
     
     .btn {
         @apply inline-block py-2 px-4 rounded-md bg-asol hover:bg-blo transition-all text-[12px] text-poti font-lato
+    }
+
+    .btn2 {
+        @apply inline-block py-2 px-4 rounded-md bg-delaw transition-all text-[12px] text-poti hover:text-asol font-lato
     }
 
 }

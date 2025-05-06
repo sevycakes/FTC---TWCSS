@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <div class="bg-asol fixed w-full">
+    <div class="bg-asol fixed w-full z-10">
         <div class="container py-1">
             <div class="flex justify-end">
                 <ul class="flex gap-4">
@@ -22,7 +22,7 @@
 
     <!-- HEADER -->
 
-    <div class="header bg-pote fixed top-8 w-full">
+    <div class="header bg-pote fixed top-8 w-full z-10">
         <div class="container py-4">
 
             <!-- DESKTOP -->
@@ -44,7 +44,7 @@
                             <li><a href="sponsor.html" class="text-base text-etim font-lato font-[400]">Sponsor Child</a></li>
                         </ul>
                         <div class="header_btn">
-                            <a href="" class="btn">Donate</a>
+                            <a href="donate.html" class="btn">Donate</a>
                         </div>
                     </div>
 
@@ -68,15 +68,15 @@
 
                     <div class="nav_m bg-pote absolute top-[70px] right-0 h-[100vh] flex lg:hidden flex-col gap-4 items-center justify-center">
                         <ul class="flex flex-col gap-4 text-center">
-                            <li><a href="" class="text-base text-etim font-lato">Home</a></li>
-                            <li><a href="" class="text-base text-etim font-lato">About</a></li>
-                            <li><a href="" class="text-base text-delaw font-lato">FAQ</a></li>
-                            <li><a href="" class="text-base text-etim font-lato">Strategy</a></li>
-                            <li><a href="" class="text-base text-etim font-lato">Contact</a></li>
-                            <li><a href="" class="text-base text-etim font-lato">Sponsor Child</a></li>
+                            <li><a href="home.html" class="text-base text-etim font-lato">Home</a></li>
+                            <li><a href="about.html" class="text-base text-etim font-lato">About</a></li>
+                            <li><a href="faq.html" class="text-base text-delaw font-lato">FAQ</a></li>
+                            <li><a href="strategy.html" class="text-base text-etim font-lato">Strategy</a></li>
+                            <li><a href="contact.html" class="text-base text-etim font-lato">Contact</a></li>
+                            <li><a href="sponsor.html" class="text-base text-etim font-lato">Sponsor Child</a></li>
                         </ul>
                         <div class="header_btn">
-                            <a href="" class="btn">Donate</a>
+                            <a href="donate.html" class="btn">Donate</a>
                         </div>
                     </div>
 
@@ -102,120 +102,194 @@
                     <!-- TAB 1 -->
 
                     <div class="faq_tab flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+
                         <a href="javascript:void(0)" id="faq-1" class="faq_nav_link active">
                             <div class="question group flex justify-between items-center p-2 border rounded-md w-fit lg:w-[600px]">
                                 <div class="flex gap-4 items-center">
-                                    <span class="text-xl font-poppins font-semibold opacity-40">01</span>
-                                    <p class="text-sm font-poppins">Can I communicate with the child I have made a Pledge to?</p>
+                                    <span class="text-xl font-poppins font-semibold opacity-40 group-hover:text-white transition-all">01</span>
+                                    <p class="text-sm font-poppins group-hover:text-white transition-all">Can I communicate with the child I have made a Pledge to?</p>
                                 </div>
-                                <span><i class="fa-solid fa-chevron-right"></i></span>
+                                <span><i class="fa-solid fa-chevron-right group-hover:text-white transition-all"></i></span>
                             </div>
                         </a>
+
                         <div id="faq-1-content" class="answer active border border-asol bg-pote w-fit md:max-w-[400px] lg:max-w-[400px] p-2 rounded-md">
                             <p class="text-sm font-poppins">Yes. You can email them, but all communication is monitored by FTC management.</p>
                         </div>
+
                     </div>
 
                     <!-- TAB 2 -->
 
                     <div class="faq_tab flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+
                         <a href="javascript:void(0)" id="faq-2" class="faq_nav_link">
                             <div class="question group flex justify-between items-center p-2 border rounded-md w-fit lg:w-[600px]">
                                 <div class="flex gap-4 items-center">
-                                    <span class="text-xl font-poppins font-semibold opacity-40">02</span>
-                                    <p class="text-sm font-poppins">How can you make sure our payment is secure?</p>
+                                    <span class="text-xl font-poppins font-semibold opacity-40 group-hover:text-white transition-all">02</span>
+                                    <p class="text-sm font-poppins group-hover:text-white transition-all">How can you make sure our payment is secure?</p>
                                 </div>
-                                <span><i class="fa-solid fa-chevron-right"></i></span>
+                                <span><i class="fa-solid fa-chevron-right group-hover:text-white transition-all"></i></span>
                             </div>
                         </a>
+
                         <div id="faq-2-content" class="answer border border-asol bg-pote w-fit md:max-w-[400px] lg:max-w-[400px] p-2 rounded-md">
                             <p class="text-sm font-poppins">Our online donation transaction is a secure SSL encrypted payment using Stripe payment processor with the best-in-class security tools and practices to maintain a high level of security.</p>
                         </div>
+
                     </div>
 
                     <!-- TAB 3 -->
 
                     <div class="faq_tab flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+
                         <a href="javascript:void(0)" id="faq-3" class="faq_nav_link">
                             <div class="question group flex justify-between items-center p-2 border rounded-md w-fit lg:w-[600px]">
                                 <div class="flex gap-4 items-center">
-                                    <span class="text-xl font-poppins font-semibold opacity-40">03</span>
-                                    <p class="text-sm font-poppins">Can I update my card number using your website?</p>
+                                    <span class="text-xl font-poppins font-semibold opacity-40 group-hover:text-white transition-all">03</span>
+                                    <p class="text-sm font-poppins group-hover:text-white transition-all">Can I update my card number using your website?</p>
                                 </div>
-                                <span><i class="fa-solid fa-chevron-right"></i></span>
+                                <span><i class="fa-solid fa-chevron-right group-hover:text-white transition-all"></i></span>
                             </div>
                         </a>
+
                         <div id="faq-3-content" class="answer border border-asol bg-pote w-fit md:max-w-[400px] lg:max-w-[400px] p-2 rounded-md">
-                            <p class="text-sm font-poppins">Yes. You can change it on your account settings. Login to your donor console</p>
+                            <p class="text-sm font-poppins group-hover:text-white transition-all">Yes. You can change it on your account settings. Login to your donor console</p>
                         </div>
+
                     </div>
 
                     <!-- TAB 4 -->
 
                     <div class="faq_tab flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+
                         <a href="javascript:void(0)" id="faq-4" class="faq_nav_link">
                             <div class="question group flex justify-between items-center p-2 border rounded-md w-fit lg:w-[600px]">
                                 <div class="flex gap-4 items-center">
-                                    <span class="text-xl font-poppins font-semibold opacity-40">04</span>
-                                    <p class="text-sm font-poppins">Will I receive personal updates from FTC and the child I pledge to on a regular basis?</p>
+                                    <span class="text-xl font-poppins font-semibold opacity-40 group-hover:text-white transition-all">04</span>
+                                    <p class="text-sm font-poppins group-hover:text-white transition-all">Will I receive personal updates from FTC and the child I pledge to on a regular basis?</p>
                                 </div>
-                                <span><i class="fa-solid fa-chevron-right"></i></span>
+                                <span><i class="fa-solid fa-chevron-right group-hover:text-white transition-all"></i></span>
                             </div>
                         </a>
+
                         <div id="faq-4-content" class="answer border border-asol bg-pote w-fit md:max-w-[400px] lg:max-w-[400px] p-2 rounded-md">
-                            <p class="text-sm font-poppins">Yes, you will receive regular updates about the progress and developments of our program. Additionally, from time to time you will receive communications directly from the child you sponsor.</p>
+                            <p class="text-sm font-poppins group-hover:text-white transition-all">Yes, you will receive regular updates about the progress and developments of our program. Additionally, from time to time you will receive communications directly from the child you sponsor.</p>
                         </div>
+
                     </div>
 
                     <!-- TAB 5 -->
 
                     <div class="faq_tab flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+
                         <a href="javascript:void(0)" id="faq-5" class="faq_nav_link">
                             <div class="question group flex justify-between items-center p-2 border rounded-md w-fit lg:w-[600px]">
                                 <div class="flex gap-4 items-center">
-                                    <span class="text-xl font-poppins font-semibold opacity-40">05</span>
-                                    <p class="text-sm font-poppins">Can I make a pledge to more than one FTC Child?</p>
+                                    <span class="text-xl font-poppins font-semibold opacity-40 group-hover:text-white transition-all">05</span>
+                                    <p class="text-sm font-poppins group-hover:text-white transition-all">Can I make a pledge to more than one FTC Child?</p>
                                 </div>
-                                <span><i class="fa-solid fa-chevron-right"></i></span>
+                                <span><i class="fa-solid fa-chevron-right group-hover:text-white transition-all"></i></span>
                             </div>
                         </a>
+
                         <div id="faq-5-content" class="answer border border-asol bg-pote w-fit md:max-w-[400px] lg:max-w-[400px] p-2 rounded-md">
-                            <p class="text-sm font-poppins">Yes. We welcome your pledges to as many children as possible!</p>
+                            <p class="text-sm font-poppins group-hover:text-white transition-all">Yes. We welcome your pledges to as many children as possible!</p>
                         </div>
+
                     </div>
 
                     <!-- TAB 6 -->
 
                     <div class="faq_tab flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+
                         <a href="javascript:void(0)" id="faq-6" class="faq_nav_link">
                             <div class="question group flex justify-between items-center p-2 border rounded-md w-fit lg:w-[600px]">
                                 <div class="flex gap-4 items-center">
-                                    <span class="text-xl font-poppins font-semibold opacity-40">06</span>
-                                    <p class="text-sm font-poppins">Can I make a Partner Pledge for the entire monthly care of a child in the FTC program?</p>
+                                    <span class="text-xl font-poppins font-semibold opacity-40 group-hover:text-white transition-all">06</span>
+                                    <p class="text-sm font-poppins group-hover:text-white transition-all">Can I make a Partner Pledge for the entire monthly care of a child in the FTC program?</p>
                                 </div>
-                                <span><i class="fa-solid fa-chevron-right"></i></span>
+                                <span><i class="fa-solid fa-chevron-right group-hover:text-white transition-all"></i></span>
                             </div>
                         </a>
+
                         <div id="faq-6-content" class="answer border border-asol bg-pote w-fit md:max-w-[400px] lg:max-w-[400px] p-2 rounded-md">
-                            <p class="text-sm font-poppins">Yes. But the full-care sponsorship of a child in our program is limited to $200 monthly. Therefore, if a child has current sponsorship pledges, the website will allow only the remaining balance necessary for full-care coverage.</p>
+                            <p class="text-sm font-poppins group-hover:text-white transition-all">Yes. But the full-care sponsorship of a child in our program is limited to $200 monthly. Therefore, if a child has current sponsorship pledges, the website will allow only the remaining balance necessary for full-care coverage.</p>
                         </div>
+
                     </div>
 
                     <!-- TAB 7 -->
 
                     <div class="faq_tab flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10">
+
                         <a href="javascript:void(0)" id="faq-7" class="faq_nav_link">
                             <div class="question group flex justify-between items-center p-2 border rounded-md w-fit lg:w-[600px]">
                                 <div class="flex gap-4 items-center">
-                                    <span class="text-xl font-poppins font-semibold opacity-40">07</span>
-                                    <p class="text-sm font-poppins">How much does an FTC Child Partner Pledge Cost?</p>
+                                    <span class="text-xl font-poppins font-semibold opacity-40 group-hover:text-white transition-all">07</span>
+                                    <p class="text-sm font-poppins group-hover:text-white transition-all">How much does an FTC Child Partner Pledge Cost?</p>
                                 </div>
-                                <span><i class="fa-solid fa-chevron-right"></i></span>
+                                <span><i class="fa-solid fa-chevron-right group-hover:text-white transition-all"></i></span>
                             </div>
                         </a>
+
                         <div id="faq-7-content" class="answer border border-asol bg-pote w-fit md:max-w-[400px] lg:max-w-[400px] p-2 rounded-md">
-                            <p class="text-sm font-poppins">You can partner with us by sponsoring a child for as little as $20 monthly. You can also select higher sponsorship amounts if the child has remaining full-care needs. Please see the options presented for a selected child on the sponsorship page.</p>
+                            <p class="text-sm font-poppins group-hover:text-white transition-all">You can partner with us by sponsoring a child for as little as $20 monthly. You can also select higher sponsorship amounts if the child has remaining full-care needs. Please see the options presented for a selected child on the sponsorship page.</p>
                         </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ-FORMS -->
+
+    <div class="faq-forms bg-pote py-4">
+        <div class="container">
+            <div class="faq-forms_wrapper flex flex-col items-start justify-center gap-10 lg:flex-row w-full">
+
+                <div class="faq-forms_title mx-auto">
+                    <small class="text-[12px] text-delaw font-poppins font-[400]">FREQUENTLY ASKED QUESTIONS</small>
+                    <h2 class="text-[clamp(18px,4vw,30px)] text-asol font-poppins font-semibold mb-4">
+                        Can't find what you
+                        <br>
+                        are looking for?
+                    </h2>
+                    <p class="text-sm font-poppins font-[300] max-w-fit mb-10">
+                        If your questions is not listed above, you can use
+                        <br>
+                        the form to send directly to us your questions
+                    </p>
+                </div>
+
+                <div class="faq-forms_content flex flex-col gap-5 w-[300px] lg:w-[500px] pt-1 mx-auto">
+
+                    <div class="forms-name mb-4 relative">
+                        <label class="block absolute -top-3 left-3 text-sm text-asol p-[1px] bg-pote">Name</label>
+                        <input type="text" class="border bg-pote rounded-md p-4 w-full">
+                    </div>
+                    <div class="forms-name mb-4 relative">
+                        <label class="block absolute -top-3 left-3 text-sm text-asol p-[1px] bg-pote">Email</label>
+                        <input type="text" class="border bg-pote rounded-md p-4 w-full">
+                    </div>
+                    <div class="forms-name mb-4 relative">
+                        <label class="block absolute -top-3 left-3 text-sm text-asol p-[1px] bg-pote">Phone</label>
+                        <input type="text" class="border bg-pote rounded-md p-4 w-full">
+                    </div>
+                    <div class="forms-name mb-4 relative">
+                        <label class="block absolute -top-3 left-3 text-sm text-asol p-[1px] bg-pote">Subject</label>
+                        <input type="text" class="border bg-pote rounded-md p-4 w-full">
+                    </div>
+                    <div class="forms-name mb-4 relative">
+                        <label class="block absolute -top-3 left-3 text-sm text-asol p-[1px] bg-pote">Message</label>
+                        <input type="text" class="border bg-pote rounded-md p-4 pb-32 w-full">
+                    </div>
+                    
+                    <div class="forms-btn">
+                        <a href="" class="btn2">Submit</a>
                     </div>
 
                 </div>
@@ -226,7 +300,7 @@
 
     <!-- GIFT -->
 
-    <div class="gift py-10 bg-pote">
+    <div class="gift py-10 bg-poti">
         <div class="container">
             <div class="gift_wrapper w-full">
 

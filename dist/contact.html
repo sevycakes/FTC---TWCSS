@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTC - Donation System</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body>
+    
+    <div class="bg-asol fixed w-full z-10">
+        <div class="container py-1">
+            <div class="flex justify-end">
+                <ul class="flex gap-4">
+                    <li><a href="#" class="text-poti text-[12px] font-lato">Visit Philippine Frontline Ministries</a></li>
+                    <li><a href="#" class="text-poti text-[12px] font-lato">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+
+    <div class="header bg-pote fixed top-8 w-full z-10">
+        <div class="container py-4">
+
+            <!-- DESKTOP -->
+
+            <div class="header_d">
+                <div class="header_wrapper hidden lg:flex justify-between items-center">
+
+                    <div class="header_img">
+                        <img src="./img/home/LOGO.svg" alt="">
+                    </div>
+
+                    <div class="nav_d flex items-center gap-4">
+                        <ul class="flex gap-4">
+                            <li><a href="home.html" class="text-base text-etim font-lato font-[400]">Home</a></li>
+                            <li><a href="about.html" class="text-base text-etim font-lato font-[400]">About</a></li>
+                            <li><a href="faq.html" class="text-base text-etim font-lato font-[400]">FAQ</a></li>
+                            <li><a href="strategy.html" class="text-base text-etim font-lato font-[400]">Strategy</a></li>
+                            <li><a href="contact.html" class="text-base text-delaw font-lato font-[400]">Contact</a></li>
+                            <li><a href="sponsor.html" class="text-base text-etim font-lato font-[400]">Sponsor Child</a></li>
+                        </ul>
+                        <div class="header_btn">
+                            <a href="donate.html" class="btn">Donate</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- MOBILE -->
+
+            <div class="header_m lg:hidden">
+                <div class="header_wrapper flex justify-between items-center">
+
+                    <div class="header_img">
+                        <img src="./img/home/LOGO.svg" alt="">
+                    </div>
+
+                    <div class="toggle_menu">
+                        <span class="block w-6 h-1 rounded-full bg-asol transition-all"></span>
+                        <span class="block w-6 h-1 rounded-full bg-asol my-1 transition-all"></span>
+                        <span class="block w-6 h-1 rounded-full bg-asol transition-all"></span>
+                    </div>
+
+                    <div class="nav_m bg-pote absolute top-[70px] right-0 h-[100vh] flex lg:hidden flex-col gap-4 items-center justify-center">
+                        <ul class="flex flex-col gap-4 text-center">
+                            <li><a href="home.html" class="text-base text-etim font-lato">Home</a></li>
+                            <li><a href="about.html" class="text-base text-etim font-lato">About</a></li>
+                            <li><a href="faq.html" class="text-base text-etim font-lato">FAQ</a></li>
+                            <li><a href="strategy.html" class="text-base text-etim font-lato">Strategy</a></li>
+                            <li><a href="contact.html" class="text-base text-delaw font-lato">Contact</a></li>
+                            <li><a href="sponsor.html" class="text-base text-etim font-lato">Sponsor Child</a></li>
+                        </ul>
+                        <div class="header_btn">
+                            <a href="donate.html" class="btn">Donate</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CONTACT-FORMS -->
+
+    <div class="contact-forms pt-40 pb-10">
+        <div class="container">
+            <div class="contact-forms_wrapper flex flex-col items-start justify-center gap-10 lg:flex-row w-full">
+
+                <div class="contact-forms_title mx-auto">
+                    <small class="text-[12px] text-delaw font-poppins font-[400]">LET'S TALK</small>
+                    <h2 class="text-[clamp(18px,4vw,30px)] text-asol font-poppins font-semibold mb-4">We're Here for You</h2>
+                    <p class="text-sm font-poppins font-[300] mb-10 max-w-[460px]">We believe in building strong relationships and fostering a sense of community. Your feedback and inquiries are important to us, and we strive to respond as quickly and thoroughly as possible.</p>
+
+                    <p class="text-sm font-poppins font-[300] mb-3 max-w-[500px]">Feel free to get in touch with us via phone</p>
+
+                    <ul class="flex flex-col gap-0 lg:flex-row lg:gap-4 mb-10">
+                        <li><a href="#" class="text-sm text-asol font-poppins font-semibold">Philippines: +63 927 420 3409</a></li>
+                        <li><a href="#" class="text-sm text-asol font-poppins font-semibold">USA +815 797 9177</a></li>
+                    </ul>
+
+                    <p class="text-sm font-poppins font-[300] mb-3 max-w-[500px]">Visit us here in the Philippines</p>
+
+                    <p class="text-sm text-asol font-poppins font-semibold mb-3 max-w-[500px]">
+                        Frontline Mission Center, Sitio Subac,
+                        <br>
+                        Brgy. Sto Nino, San Pablo City, 4000 Laguna
+                    </p>
+                </div>
+
+                <div class="contact-forms_content flex flex-col gap-5 w-[300px] lg:w-[500px] pt-1 mx-auto">
+
+                    <div class="forms-name mb-4 relative">
+                        <label class="block absolute -top-3 left-3 text-sm text-asol bg-poti p-[1px]">Name</label>
+                        <input type="text" class="border rounded-md p-4 w-full">
+                    </div>
+                    <div class="forms-name mb-4 relative">
+                        <label class="block absolute -top-3 left-3 text-sm text-asol bg-poti p-[1px]">Email</label>
+                        <input type="text" class="border rounded-md p-4 w-full">
+                    </div>
+                    <div class="forms-name mb-4 relative">
+                        <label class="block absolute -top-3 left-3 text-sm text-asol bg-poti p-[1px]">Phone</label>
+                        <input type="text" class="border rounded-md p-4 w-full">
+                    </div>
+                    <div class="forms-name mb-4 relative">
+                        <label class="block absolute -top-3 left-3 text-sm text-asol bg-poti p-[1px]">Subject</label>
+                        <input type="text" class="border rounded-md p-4 w-full">
+                    </div>
+                    <div class="forms-name mb-4 relative">
+                        <label class="block absolute -top-3 left-3 text-sm text-asol bg-poti p-[1px]">Message</label>
+                        <input type="text" class="border rounded-md p-4 pb-32 w-full">
+                    </div>
+                    
+                    <div class="forms-btn">
+                        <a href="" class="btn2">Submit</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- C-TEAM -->
+
+    <div class="c-team py-10">
+        <div class="container">
+            <div class="c-team_wrapper">
+
+                <div class="c-team_title">
+                    <small class="text-[12px] text-delaw font-poppins font-[400] flex justify-center">GET TO KNOW US</small>
+                    <h2 class="text-[clamp(18px,4vw,30px)] text-asol text-center font-poppins font-semibold mb-10">Our Dedicated Team</h2>
+                </div>
+
+                <div class="c-team_content flex flex-col gap-5 lg:flex-row w-full md:flex-row lg:w-[1000px] lg:mx-auto">
+
+                    <!-- TEAM 1 -->
+
+                    <div class="team w-fit flex flex-col gap-2 mx-auto">
+                        <div class="team_img mx-auto">
+                            <img src="./img/contact/team-judea.webp" alt="">
+                        </div>
+                        <div class="team_info flex flex-col gap-2">
+                            <h4 class="text-base text-asol text-center font-poppins font-bold">Judea Delos Santos</h4>
+                            <small class="text-[11px] font-poppins italic flex justify-center">Communication & Development Staff</small>
+                            <a href="#" class="text-[12px] text-asol text-center font-poppins">judea.delossantos@thefrontline.asia</a>
+                        </div>
+                    </div>
+
+                    <!-- TEAM 2 -->
+
+                    <div class="team w-fit flex flex-col gap-2 mx-auto">
+                        <div class="team_img mx-auto">
+                            <img src="./img/contact/team-mike.webp" alt="">
+                        </div>
+                        <div class="team_info flex flex-col gap-2">
+                            <h4 class="text-base text-asol text-center font-poppins font-bold">Michael Gordon</h4>
+                            <small class="text-[11px] font-poppins italic flex justify-center">Spiritual Director</small>
+                            <a href="#" class="text-[12px] text-asol text-center font-poppins">mike.gordon@thefrontline.asia</a>
+                        </div>
+                    </div>
+
+                    <!-- TEAM 3 -->
+
+                    <div class="team w-fit flex flex-col gap-2 mx-auto">
+                        <div class="team_img mx-auto">
+                            <img src="./img/contact/team-jp.webp" alt="">
+                        </div>
+                        <div class="team_info flex flex-col gap-2">
+                            <h4 class="text-base text-asol text-center font-poppins font-bold">John Katigbak</h4>
+                            <small class="text-[11px] font-poppins italic flex justify-center">Managing Director</small>
+                            <a href="#" class="text-[12px] text-asol text-center font-poppins">john.katigbak@thefrontline.asia</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-asol">
+        <div class="container py-1">
+            <div>
+                <div class="flex items-center justify-between">
+                    <p class="text-poti text-[clamp(10px,4vw,12px)] font-lato">© 2024 Face The Children</p>
+                    <p class="text-poti text-[clamp(10px,4vw,12px)] font-lato">Philippine Frontline Ministries</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../dist/js/script.js"></script>
+
+</body>
+</html>
