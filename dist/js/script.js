@@ -34,3 +34,31 @@ function removeActiveContentFaq() {
         content.classList.remove("active");
     });
 }
+
+// SPONSOR SLIDER
+
+const sponsorNav = document.querySelectorAll(".sponsor_nav_link");
+const sponsorContent = document.querySelectorAll(".sponsor_content");
+
+sponsorNav.forEach((sponsor) => {
+    sponsor.addEventListener("click", () => {
+        removeActiveSponsor();
+        sponsor.classList.add("active");
+
+        const activeContent = document.querySelector(`#${sponsor.id}-content`);
+        removeActiveContentSponsor();
+        activeContent.classList.add("active");
+    });
+});
+
+function removeActiveSponsor() {
+    sponsorNav.forEach((sponsor) => {
+        sponsor.classList.remove("active");
+    });
+}
+
+function removeActiveContentSponsor() {
+    sponsorContent.forEach((content) => {
+        content.classList.remove("active");
+    });
+}

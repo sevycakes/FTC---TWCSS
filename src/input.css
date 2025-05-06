@@ -47,32 +47,36 @@
         @apply hover:bg-blo transition-all
     }
 
-    /* .question span {
-        @apply hover:text-white
-    }
-
-    .question p {
-        @apply hover:text-white
-    } */
 
     .faq_nav_link.active .question {
         @apply border-asol
     }
-
     .faq_nav_link.active span {
         @apply text-asol  group-hover:text-white transition-all
     }
-
     .faq_nav_link.active p {
         @apply text-asol group-hover:text-white transition-all
     }
 
     .answer {
-        @apply hidden lg:flex lg:opacity-0
+        @apply h-0 overflow-hidden
+    }
+    .answer.active {
+        @apply h-fit border border-asol bg-pote p-2
     }
 
-    .answer.active {
-        @apply flex lg:opacity-100
+    /* SPONSOR TABS */
+
+    .sponsor_content {
+        @apply hidden
+    }
+
+    .sponsor_content.active {
+        @apply flex
+    }
+
+    .sponsor_nav_link.active a {
+        @apply opacity-100 border-delaw transition-all
     }
 
 }

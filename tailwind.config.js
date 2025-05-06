@@ -12,6 +12,7 @@ module.exports = {
         blo: "#2a82b2",
         delaw: "#fc972e",
         dewaw: "#d98417",
+        yilo: "#ffbd66",
       },
       fontFamily: {
         'lato': ["Lato", "sans-serif"],
