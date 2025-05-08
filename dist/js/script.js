@@ -35,7 +35,7 @@ function removeActiveContentFaq() {
     });
 }
 
-// SPONSOR SLIDER
+// SPONSOR TABS
 
 const sponsorNav = document.querySelectorAll(".sponsor_nav_link");
 const sponsorContent = document.querySelectorAll(".sponsor_content");

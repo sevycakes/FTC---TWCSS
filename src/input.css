@@ -12,6 +12,8 @@
 
 @layer components {
 
+    /* CONTAINER */
+
     .container {
         @apply max-w-[90rem] w-full mx-auto p-6
     }
@@ -21,12 +23,15 @@
     .toggle_menu {
         @apply lg:hidden
     }
+
     .toggle_menu.open span:first-child {
         @apply transform translate-y-[9px] rotate-[-45deg] transition-all
     }
+
     .toggle_menu.open span:nth-child(2) {
         @apply opacity-0 transition-all
     }
+
     .toggle_menu.open span:last-child {
         @apply transform translate-y-[-7px] rotate-[45deg] transition-all
     }
@@ -47,13 +52,14 @@
         @apply hover:bg-blo transition-all
     }
 
-
     .faq_nav_link.active .question {
         @apply border-asol
     }
+
     .faq_nav_link.active span {
         @apply text-asol  group-hover:text-white transition-all
     }
+
     .faq_nav_link.active p {
         @apply text-asol group-hover:text-white transition-all
     }
@@ -89,6 +95,10 @@
 
     .btn2 {
         @apply inline-block py-2 px-4 rounded-md bg-delaw transition-all text-[12px] text-poti hover:text-asol font-lato
+    }
+
+    .btn3 {
+        @apply inline-block py-2 px-4 rounded-md bg-delaw transition-all text-[12px] text-poti font-lato
     }
 
 }
