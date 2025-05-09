@@ -4,15 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        etim: "#000",
-        lebag: "#44362b",
-        poti: "#fff",
-        pote: "#f3f4f6",
-        asol: "#3e9bcf",
-        blo: "#2a82b2",
-        delaw: "#fc972e",
-        dewaw: "#d98417",
-        yilo: "#ffbd66",
+        FtcPrimary: "#3e9bcf",
+        FtcSecondary: "#f3f4f6",
+        FtcAccent: "#fc972e",
+        FtcDBlue: "#2a82b2",
+        FtcDYellow: "#d98417",
+        FtcLYellow: "#ffbd66",
+        FtcBrown: "#3b3b37",
       },
       fontFamily: {
         'lato': ["Lato", "sans-serif"],
